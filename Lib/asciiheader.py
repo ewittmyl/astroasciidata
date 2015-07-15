@@ -229,7 +229,7 @@ class Header(object):
         commentpattern = re.compile(comment_char)
         sextractor_header = re.compile('^#\s*(\d+)\s+([+*-/()\w]+)([^\[]*)(\[\w+\])?(.*)\n')
         # open the data file and go over its rows
-        for line in file(filename, 'r'):
+        for line in open(filename, 'r'):
             if commentpattern.match(line):
                 #append everything after the comment_char separator to Fullhdata
                 line_with_comment_char_stripped_off = commentpattern.sub('',line,count=1)
