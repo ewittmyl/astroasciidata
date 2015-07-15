@@ -5,4 +5,4 @@ $HeadURL: https://www.stsci.edu/svn/ssb/astrolib/trunk/asciidata/Lib/__init__.py
 """
 __version__ = "Version 1.1.1 $LastChangedRevision: 860 $"
 
-from asciidata.asciifunction import *
+from .asciidata.asciifunction import *
