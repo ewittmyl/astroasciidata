@@ -1,3 +1,15 @@
+asciidata
+=========
+
+This is a fork of 
+[http://www.stecf.org/software/PYTHONtools/astroasciidata/](asciidata) 
+with the primary goal of making it python3 compatible.
+
+The original README follows.
+
+ORIGINAL README
+===============
+
 # asciidata README
 #
 # Martin Kuemmel & Jonas Haase, March 2008
